@@ -1,0 +1,28 @@
+{
+  "name": "your_body_server",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "mocha --opts tests/mocha.opts"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-passport": "^4.1.3",
+    "koa-router": "^8.0.8",
+    "mongoose": "^5.9.1",
+    "mongoose-private-paths": "^0.7.0",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.1",
+    "mongodb-memory-server": "^6.2.4",
+    "nodemon": "^2.0.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "should": "^13.2.3"
+  }
+}
